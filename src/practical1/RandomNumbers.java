@@ -22,7 +22,7 @@ public class RandomNumbers {
 	System.out.println("Please provide the Nth number: ");
 	int n = scanner.nextInt();
 	
-	System.out.println("The Nth smallest number is = "+ numbers[n]);
+	System.out.println("The Nth smallest number is = "+ numbers[n-1]);
 	}
 
 }
